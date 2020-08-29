@@ -1,0 +1,31 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~UPS.PrjPCB|ReportField=ProjectFullPath~D:\项目\寝室自动化\自制UPS\PCB\UPS.PrjPCB|ReportField=Title~Bill of Materials For PCB Document [UPS电路3.PcbDoc]|ReportField=TotalQuantity~65|ReportField=ReportTime~20:25:36|ReportField=ReportDate~2018-9-29|ReportField=ReportDateTime~2018-9-29 20:25:36|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~UPS电路3.PcbDoc|ReportField=DataSourceFullPath~D:\项目\寝室自动化\自制UPS\PCB\UPS电路3.PcbDoc
+3.3V1|Typical RED, GREEN, YELLOW, AMBER GaAs LED|3.3V1, 5V, D5, D6, D7, D8|LED|LED|6
+LM1117_3.3||3.3v_1|LC-SOT-223|LM1117|1
+LM1117_5.0||5.0v_1|LC-SOT-223|LM1117|1
+12V_Pb|Multicell Battery|BT1|BIG2|Battery|1
+0.1uF|Capacitor|C3, C4|0805|cap|2
+22uf|Capacitor|C5, C6|LC-CASE-B_3528|Cap2|2
+1uF|Capacitor|C7, C10|0805|cap|2
+470uF|Polarized Capacitor (Axial)|C9|470uf-2|Cap Pol2|1
+220uF|Polarized Capacitor (Radial)|C11|220uf|Cap Pol1|1
+1N4007|1 Amp General Purpose Rectifier|D1, D2, D3, D4|M7(1N4007)|Diode 1N4007|4
+Relay-5V|Single-Pole Dual-Throw Relay|K1|SRD_12VDC_SL_C|Relay-SPDT|1
+Relay-12V|Single-Pole Dual-Throw Relay|K2, K3, K4|SRD_12VDC_SL_C|Relay-SPDT|3
+12V-8V||M1|LM2596|12V-5V|1
+Arduino Pro Mini||MCU|Arduino_Promini|Arduino Pro Mini|1
+Header 4|Header, 4-Pin|OLED, RTC|HDR1X4|Header 4|2
+Adapter|Header, 2-Pin|P1|BIG2|Header 2|1
+Charger|Header, 2-Pin|P2|BIG2|Header 2|1
+Payload4|Header, 2-Pin|P3|BIG2|Header 2|1
+Payload1|Header, 2-Pin|P4|BIG2|Header 2|1
+Payload2|Header, 2-Pin|P6|BIG2|Header 2|1
+Payload3|Header, 2-Pin|P7|BIG2|Header 2|1
+3.3V Hub|Header, 3-Pin, Dual row|P11|HDR2X3|Header 3X2|1
+5V Hub|Header, 3-Pin, Dual row|P12|HDR2X3|Header 3X2|1
+Res2|Resistor|R0, R2, R4, R6, R7, R8, R11, R12, R13, R14, R16, R17, R18, R22, R23, R24, R25|0805|Res2|17
+Res Adj2|Variable Resistor|R1, R3, R5|0805|Res Adj2|3
+1K|Resistor|R9, R10|0805|RES2_1|2
+NRF24L01||RF1|NRF24L01|NRF24L01|1
+SW-SPST|Single-Pole, Single-Throw Switch|S1, S3, S4|SWITCH6*6*5|SW-SPST|3
+SW-SPST|Single-Pole, Single-Throw Switch|S2|Swtich7*7|SW-SPST|1
+ULN2003A||U1|ULN2003-DIP16|ULN2003A|1
